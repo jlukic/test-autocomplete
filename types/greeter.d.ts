@@ -8,29 +8,29 @@ export class Greeter<T> { // Generic type parameter
   data: T;
 
   /**
-   * @param message
-   * @param data
+   * @param message The greeting message
+   * @param data The data to store
    */
   constructor(message: string, data: T);
 
   /**
-   * @param name
-   * @returns
+   * @param name The name to greet
+   * @returns A greeting string
    */
   greet(name: string): string;
 
   /**
    * Overloaded method.
-   * @param name
-   * @param excited
-   * @returns
+   * @param name The name to greet
+   * @param excited Whether to be excited
+   * @returns A greeting string
    */
   greet(name: string, excited: boolean): string;
 
   /**
    * A generic method
-   * @param value
-   * @returns
+   * @param value The value to process
+   * @returns The processed value
    */
   process<U>(value: U): U;
 }
