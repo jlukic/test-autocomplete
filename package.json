@@ -1,5 +1,5 @@
 {
-  "name": "test-type",
+  "name": "test-autocomplete",
   "version": "1.0.0",
   "description": "A simple package for testing TypeScript autocompletion (JS source).",
   "main": "src/index.js",
