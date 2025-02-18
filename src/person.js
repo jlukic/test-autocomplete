@@ -2,7 +2,7 @@
  * A class representing a Person
  */
 export class Person {
-  constructor(name, age, address, hobbies =) {
+  constructor(name, age, address, hobbies = []) {
     this.name = name;
     this.age = age;
     this.address = address;
