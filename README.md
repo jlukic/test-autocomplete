@@ -17,7 +17,7 @@ import { greet, Person, introduce, giveMeANumber, Greeter, processInput } from '
 
 console.log(greet("World")); // "Hello, World!"
 
-const myPerson new Person({
+const myPerson = new Person({
   name: "Alice",
   age: 30,
   hobbies: ["reading", "hiking"]

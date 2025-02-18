@@ -1,5 +1,3 @@
-import { Person } from "./people.d.ts";
-
 /**
  * A class representing a Greeter
  */
