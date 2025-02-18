@@ -1,0 +1,19 @@
+{
+  "name": "type-test",
+  "version": "1.0.0",
+  "description": "A simple package for testing TypeScript autocompletion (JS source).",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "src",
+    "types"
+  ],
+  "keywords": [
+    "typescript",
+    "autocomplete",
+    "repl",
+    "javascript"
+  ],
+  "author": "Jack Lukic",
+  "license": "ISC"
+}
