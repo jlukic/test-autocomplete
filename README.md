@@ -1,4 +1,4 @@
-# type-test
+# test-autocomplete
 
 This package is intended as a test package for REPL environments that might use [unpkg](http://unpkg.com/) and need to test autocompletion functionality.
 
