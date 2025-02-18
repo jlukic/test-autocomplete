@@ -3,17 +3,14 @@ export class Greeter {
     this.greeting = message;
     this.data = data;
   }
-  greet(name) {
-    return `${this.greeting}, ${name}! Data: ${JSON.stringify(this.data)}`;
-  }
   greet(name, excited) {
     if (excited) {
       return `${this.greeting}, ${name}!!! Data: ${JSON.stringify(this.data)}`;
     } else {
-      return this.greet(name); // Call the other overload
+      return `${this.greeting}, ${name}! Data: ${JSON.stringify(this.data)}`;
     }
   }
   process(value) {
-      return value;
+    return value;
   }
 }
