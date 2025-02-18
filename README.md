@@ -17,7 +17,11 @@ import { greet, Person, introduce, giveMeANumber, Greeter, processInput } from '
 
 console.log(greet("World")); // "Hello, World!"
 
-const myPerson: Person = { name: "Alice", age: 30, hobbies: ["reading", "hiking"] };
+const myPerson new Person({
+  name: "Alice",
+  age: 30,
+  hobbies: ["reading", "hiking"]
+});
 introduce(myPerson); // "This is Alice, they are 30 years old. Their hobbies are: reading, hiking"
 
 console.log(giveMeANumber()); // 42
