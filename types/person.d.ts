@@ -1,7 +1,7 @@
 /**
  * An interface representing a person.
  */
-export interface Person {
+export type Person {
   name: string;
   age: number;
   readonly address?: string; // Optional and readonly
