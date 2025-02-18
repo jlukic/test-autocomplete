@@ -8,6 +8,7 @@ This can be used to confirm intellisense functionality and test your app styling
 
 ```bash
 npm install type-test
+```
 
 ### Usage
 
