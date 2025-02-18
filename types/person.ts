@@ -5,7 +5,7 @@ export interface Person {
   name: string;
   age: number;
   readonly address?: string; // Optional and readonly
-  hobbies: string;
+  hobbies: string[];
 }
 
 /**
