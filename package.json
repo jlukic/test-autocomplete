@@ -1,8 +1,7 @@
 {
   "name": "test-autocomplete",
-  "version": "1.2.12",
+  "version": "1.2.13",
   "description": "A simple package for testing TypeScript autocompletion (JS source).",
-  "main": "src/index.js",
   "module": "src/index.js",
   "types": "types/index.d.ts",
   "files": [
